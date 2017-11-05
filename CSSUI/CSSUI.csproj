@@ -62,6 +62,13 @@
   <ItemGroup>
     <Content Include="reset.css\H-ui.reset.css" />
     <Content Include="reset.css\index.html" />
+    <Content Include="动画\CSS3D转换.html" />
+    <Content Include="动画\CSS3阴影.html" />
+    <Content Include="动画\CSS动画.html" />
+    <Content Include="动画\CSS过渡.html" />
+    <Content Include="媒体查询\index.html" />
+    <Content Include="样式权重\base.css" />
+    <Content Include="样式权重\index.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

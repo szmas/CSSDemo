@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+    <style>
+        .animal {
+            width: 100px;
+            height: 100px;
+            background: red;
+            transition: width 0.5s ease-in 1s;
+            transition-delay: 1s; /*规定过渡效果何时开始*/
+            transition-duration: 0.5s; /*定义过渡效果花费的时间*/
+            transition-property: width; /*规定过渡效果的时间曲线*/
+            transition-timing-function: ease-in; /*规定应用过渡的 CSS 属性的名称*/
+        }
+
+            .animal:hover {
+                width: 300px;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        CSS3 过渡是元素从一种样式逐渐改变为另一种的效果。<br />
+        要实现这一点，必须规定两项内容：<br />
+        指定要添加效果的CSS属性<br />
+        指定效果的持续时间。<br />
+    </div>
+    <div class="animal">
+
+    </div>
+</body>
+</html>

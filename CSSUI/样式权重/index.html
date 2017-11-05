@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="base.css" rel="stylesheet" />
+    <style>
+        /*内部样式，内嵌样式*/
+        .d1 {
+            background: red; /* 权重比行内样式低*/
+        }
+    </style>
+</head>
+<body>
+    <div id="d1" class="d2 d1" style="background:gray;/*行内样式 权重最高 1000 但是比!important 低*/">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+</body>
+</html>

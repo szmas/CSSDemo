@@ -1,0 +1,26 @@
+﻿.d1 {
+    background: green !important; /* !important 权重最高 可以覆盖行内样式 权重值 1000 */
+}
+
+
+.d1 {
+    background: #00ff21; /*  外部样式表比内部样式表权重低 class选择器权重值 总数*10 */
+}
+
+.d2 {
+    background: #0094ff; /* 权重相同的样式，后面的会覆盖前面的 不看class 写的先后顺序 */
+}
+
+
+[class=d1] {
+    background: #ffd800; /* 属性选择器权重跟class权重一样 总数*10*/
+}
+
+
+div {
+    background: #b6ff00; /*标签选择器权重为 1 */
+}
+
+#d1 {
+    background: #ff00dc; /* ID选择器权重值 100 比class高 */
+}
